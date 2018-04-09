@@ -1,0 +1,17 @@
+body{
+    font-size: 100px;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+::placeholder {
+    color: gray;
+}
+
+:root {
+    --mianColor: red;
+}
+
+a {
+    color: var(--mianColor);
+}
